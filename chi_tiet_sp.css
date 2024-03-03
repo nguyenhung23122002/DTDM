@@ -1,0 +1,529 @@
+*{
+  font-family: 'DM Sans';
+    margin: 0;
+    padding: 0;
+    /* background-color: #FFFAE9; */
+}
+.header{
+width: 1520px;
+height: 1000px;
+left: 0px;
+top: 0px;
+background: #FFFAE9;
+}
+.home-button {
+    margin-top: 8px;
+  }
+  .Navigation {
+    margin: 0;
+    padding: 0;
+    border-bottom:1px solid #f1ddb5;
+    background: #FFFAE9;
+    height: 100px;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .Navigation .Cosmetic{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: 'Aclonica';
+    font-size: 22px;
+    background-color: #FFFAE9;
+  }
+ .Navigation .dieuhuong{
+    text-decoration: none;
+    background-color: #FFFAE9;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 250px;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.Navigation .dieuhuong a{
+    text-decoration: none;
+    background-color: #FFFAE9;
+}
+ #search-box{
+    margin-top: 0;
+    background-color: #FFFAE9;
+    height: 85px;
+    width: 400px;
+}
+.Navigation #search-box #search-text{
+    background-color: #FFFAE9;
+	height: 5vh;
+    width: 30vh;
+    border: none;
+    outline: none;
+    background: white;
+    width: 0;
+    padding: 0;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+#search-box:hover #search-text,#search-box #search-text:valid {
+
+	width: 200px;
+	padding: 10px 0px 0px 20px;   
+	transition: 2s;
+}
+.Navigation #search-box button {
+    background: #FFFAE9;
+	border: none;
+	padding:15px  ;
+	/* biểu tượng bàn tay khi trỏ chuột vào*/
+	cursor: pointer;
+	border-radius: 50%;
+	font-size: 20px;
+}
+.Shop {
+    color: #FF382E;
+}
+.shop1 {
+    margin-top: 15vh;
+    height: 150px;
+    width: auto;
+    display: flex;
+    background: #F7F7F7;
+    align-items: center;
+}
+.shop1 h2{
+    margin-left: 5vh;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 54px;
+    color: #000000;
+}
+.noidung .trai{
+    float:left;
+}
+.noidung .trai .container{
+    
+    margin-left: 15vh;
+    width: 425px;
+    height: auto;
+}
+.container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 26.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  .noidung .trai .container .row{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .noidung .phai{
+    margin: 0 0 0 10vh
+  }
+  .noidung .phai h2{
+   font-family: 'DM Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 48px;
+   line-height: 54px;
+   /* identical to box height, or 112% */
+   
+   
+   color: #000000;
+  }
+  .noidung{
+    width: 770px;
+    margin-top: 5vh;
+    margin-left: 15vh;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .star-vote {
+    display: inline-block;
+    font-size: 0;
+  }
+  
+  .star-vote input[type="radio"] {
+    display: none;
+  }
+  
+  .star-vote label {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-star-512.png');
+    background-size: contain;
+    cursor: pointer;
+  }
+  
+  .star-vote input[type="radio"]:checked + label {
+    background-image: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-star-outline-512.png');
+    background-color: yellow;
+  }
+  
+  .star-vote label.selected {
+    background-color: yellow;
+  }
+  .noidung .phai h3{
+    width: 425px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .noidung .phai h4{
+    width: 425px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .noidung .phai button{
+    margin:  5vh;
+    background: #FF382E;
+    border-radius: 4px;
+    height: 40px;
+    width: 170px;
+    border: none;
+
+  }
+  .noidung .phai button a{
+    font-family: 'Be Vietnam Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+text-align: center;
+text-decoration: none;
+color: #FFFFFF;
+  }
+  .noidung .phai p{
+    float: right;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 1vh;
+  }
+  .noidung .phai{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+color: #000000;
+  }
+
+  .end{
+    width: auto;
+    height: 246px;
+    display: flex;
+    background: #FFFAE9;
+}
+.end .tren11{
+    margin: 10vh 0 0 15vh;
+}
+.end .tren11 p{
+    
+    width: 160px;
+    height: 55px;
+    font-family: 'Aclonica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #2A2A2A;
+}
+.end .tren11 h3{
+    width: 275px;
+    height: 55px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5A5850;
+}
+.end .tren12 {
+    margin: 10vh 0 0 15vh;
+}
+.end .tren12 h2{
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+    
+    
+    color: #2A2A2A;
+}
+.end .tren12 h3{
+    width: 295px;
+    height: 56px;
+    left: 539px;
+    top: 5547px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+
+    color: #5A5850;
+}
+.end .tren12 i{
+    width: 40px;
+}
+.end1 {
+  background: #FFFAE9;
+    display: flex;
+    width: 1219px;
+    padding: 5vh 0 15vh 0;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.end1 i{
+    border: #000000 solid 1px;
+    color: white;
+    background: black;
+    border-radius: 50%;
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.end1 p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px 0 0 0;
+}
+
+span.psw {
+  float: right;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  /* padding-top: 16px; */
+}
+.rmb{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}

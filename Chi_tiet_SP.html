@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chi_tiet_sp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Chi tiết sản phẩm</title>
+</head>
+<style>
+    body {font-family: Arial, Helvetica, sans-serif;}
+    * {box-sizing: border-box;}
+    
+    /* Full-width input fields */
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+    }
+    
+    /* Add a background color when the inputs get focus */
+    input[type=text]:focus, input[type=password]:focus {
+      background-color: #ddd;
+      outline: none;
+    }
+    
+    /* Set a style for all buttons */
+    button {
+      background-color: #04AA6D;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+    }
+    
+    button:hover {
+      opacity:1;
+    }
+    
+    /* Extra styles for the cancel button */
+    .cancelbtn {
+      padding: 14px 20px;
+      background-color: #f44336;
+    }
+    
+    /* Float cancel and signup buttons and add an equal width */
+    .cancelbtn, .signupbtn {
+      float: left;
+      width: 50%;
+    }
+    
+    /* Add padding to container elements */
+    .container {
+      padding: 16px;
+    }
+    
+    /* The Modal (background) */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: #FFFAE9;
+      padding-top: 50px;
+    }
+    
+    /* Modal Content/Box */
+    .modal-content {
+      background-color: #fefefe;
+      margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+      border: 1px solid #888;
+      width: 80%; /* Could be more or less, depending on screen size */
+    }
+    
+    /* Style the horizontal ruler */
+    hr {
+      border: 1px solid #f1f1f1;
+      margin-bottom: 25px;
+    }
+     
+    /* The Close Button (x) */
+    .close {
+      position: absolute;
+      right: 35px;
+      top: 15px;
+      font-size: 40px;
+      font-weight: bold;
+      color: #f1f1f1;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: #f44336;
+      cursor: pointer;
+    }
+    
+    /* Clear floats */
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    /* Change styles for cancel button and signup button on extra small screens */
+    @media screen and (max-width: 300px) {
+      .cancelbtn, .signupbtn {
+         width: 100%;
+      }
+    }
+</style>
+<body>
+    <class class="header">                            
+        <header class="Navigation">
+            <p class="Cosmetic">Thai Nguyen Cosmetic</p>
+            <div class="dieuhuong">        
+                <a href="http://127.0.0.1:5500/Trangchu.html" class="Home">Home</a>
+                <a href="http://127.0.0.1:5500/Shop.html" class="Shop">Shop</a>
+                <a href="http://127.0.0.1:5500/cnt.html" class="Contact">Contact</a>
+                <a href="http://127.0.0.1:5500/select.html" class="new">News</a>                   
+            </div> 
+            <form action="" id="search-box">
+                <!-- input tạo ô tìm kiếm, name đặt tên text, placeholder để tạo chữ ẩn trên tìm kiếm, required không cho bỏ trống   -->
+                <input type="" id="search-text" placeholder="Tìm kiếm " required>
+                <!--  button tạo ô -->
+                <button id= "search-btn "><i class="fa-solid fa-magnifying-glass"></i> </button>
+            </form>
+        </header>
+    </class> 
+    <div class="shop1">
+        <h2>Shop</h2>
+    </div>
+    <div class="noidung">
+        <div class="trai">
+            <!-- Container for the image gallery -->
+    <div class="container">
+
+        <!-- Full-width images with number text -->
+        <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="image/Romand-zero-06.jpg" style="width:100%">
+        </div>
+    
+        <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="image/romand006.jpg" style="width:100%">
+        </div>
+    
+        <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="image/romand06.jpg" style="width:100%">
+        </div>
+    
+        <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="image/romand_06.jpg" style="width:100%">
+        </div> 
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+        <!-- Image text -->
+        <div class="caption-container">
+        <p id="caption"></p>
+        </div>
+    
+        <!-- Thumbnail images -->
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="image/Romand-zero-06.jpg" style="width:100%" onclick="currentSlide(1)" alt="Romand 1">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="image/romand006.jpg" style="width:100%" onclick="currentSlide(2)" alt="Romand 2">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="image/romand06.jpg" style="width:100%" onclick="currentSlide(3)" alt="Romand 3">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="image/romand_06.jpg" style="width:100%" onclick="currentSlide(4)" alt="Romand 4">
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="phai">
+      <h2>Mock ups</h2>
+        <div class="star-vote">
+          <input type="radio" id="star1" name="rating" value="1">
+          <label for="star1"></label>
+          <input type="radio" id="star2" name="rating" value="2">
+          <label for="star2"></label>
+          <input type="radio" id="star3" name="rating" value="3">
+          <label for="star3"></label>
+          <input type="radio" id="star4" name="rating" value="4">
+          <label for="star4"></label>
+          <input type="radio" id="star5" name="rating" value="5">
+          <label for="star5"></label>
+        </div> 
+      <h3>145000-165000</h3>
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">ADD TO CART</button>
+        <div id="id01" class="modal">
+          <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <img src="" alt="Avatar" class="avatar">
+            </div>
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>  
+              <div class="rmb"> 
+                <label>
+                  <input  type="checkbox" checked="checked" name="remember">Remember me </div><br>
+                </label>
+              </div>   
+              <button type="submit">Login</button>
+              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+              <span class="psw">Forgot <a href="#">password?</a></span><br>
+              <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+              <div class="container" style="background-color:#f1f1f1">
+            </div>
+          </form>
+        </div>
+        <script>
+          // Get the modal
+          var modal = document.getElementById('id01');
+          // When the user clicks anywhere outside of the modal, close it
+          window.onclick = function(event) {
+            if (event.target == modal) {
+              modal.style.display = "none";
+            }
+          }
+        </script>
+        <h2>Description</h2>
+        <h4>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire. Bzed by the charms of pleasure of the moment.</h4>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="end">
+        <div class="tren11">
+            <p class="Comestic">Thai Nguyen Cosmetic</p> 
+            <h3>Dui ut ornare lectus sit amet. Urna nunc id cursus metus</h3>
+        </div>
+        <div class="tren12">
+            <h2 class="">Quick Contact</h2> 
+            <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+        </div>
+        <div class="tren12">
+            <h2 class="">Follow us</h2><br>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <h3>Be a part of our intsgram community</h3>
+        </div>
+    </div>
+    <div class="end1"><i class="fa-solid fa-phone"> </i><p>0965 66 968</p></div> 
+    <script>
+        
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+    </script>
+</body>
+</html>

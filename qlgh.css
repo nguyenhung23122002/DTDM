@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFAE9;
+}
+.header{
+width: 1520px;
+height: 1000px;
+left: 0px;
+top: 0px;
+background: #FFFAE9;
+}
+.home-button {
+    margin-top: 8px;
+  }
+  .Navigation {
+    margin: 0;
+    padding: 0;
+    border-bottom:1px solid #f1ddb5;
+    background: #FFFAE9;
+    height: 100px;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .Navigation .Cosmetic{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: 'Aclonica';
+    font-size: 22px;
+    background-color: #FFFAE9;
+  }
+ .Navigation .dieuhuong{
+    text-decoration: none;
+    background-color: #FFFAE9;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 250px;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.Navigation .dieuhuong a{
+    text-decoration: none;
+    background-color: #FFFAE9;
+}
+ #search-box{
+    margin-top: 0;
+    background-color: #FFFAE9;
+    height: 85px;
+    width: 400px;
+
+}
+.Navigation #search-box #search-text{
+    background-color: #FFFAE9;
+	height: 5vh;
+    width: 30vh;
+    border: none;
+    outline: none;
+    background: white;
+    width: 0;
+    padding: 0;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.Home{
+    color: #FF382E;
+}
+/* điều kiện 1 là không có text thì mở, điều kiện 2 có text không đc đóng*/
+#search-box:hover #search-text,#search-box #search-text:valid {
+
+	width: 200px;
+	padding: 10px 0px 0px 20px;   
+	transition: 2s;
+}
+.Navigation #search-box button {
+    background: #FFFAE9;
+	border: none;
+	padding:15px  ;
+	/* biểu tượng bàn tay khi trỏ chuột vào*/
+	cursor: pointer;
+	border-radius: 50%;
+	font-size: 20px;
+}

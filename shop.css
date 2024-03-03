@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFAE9;
+}
+/* body{
+    display: flex;
+    justify-content: center;
+} */
+.header{
+width: 1520px;
+height: 1000px;
+left: 0px;
+top: 0px;
+background: #FFFAE9;
+}
+.home-button {
+    margin-top: 8px;
+  }
+  .Navigation {
+    margin: 0;
+    padding: 0;
+    border-bottom:1px solid #f1ddb5;
+    background: #FFFAE9;
+    height: 100px;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .Navigation .Comestic{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: 'Aclonica';
+    font-size: 22px;
+    background-color: #FFFAE9;
+  }
+.Navigation .dieuhuong{
+    text-decoration: none;
+        background-color: #FFFAE9;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 50px;
+  margin-left: 250px;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+.Navigation .dieuhuong a{
+    text-decoration: none;
+    background-color: #FFFAE9;
+}
+ #search-box{
+    margin-top: 0;
+    background-color: #FFFAE9;
+    height: 85px;
+    width: 400px;
+
+}
+.Navigation #search-box #search-text{
+    background-color: #FFFAE9;
+	height: 5vh;
+    width: 30vh;
+    border: none;
+    outline: none;
+    background: white;
+    width: 0;
+    padding: 0;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.Shop{
+    color: #FF382E;
+}
+/* điều kiện 1 là không có text thì mở, điều kiện 2 có text không đc đóng*/
+#search-box:hover #search-text,#search-box #search-text:valid {
+
+	width: 200px;
+	padding: 10px 0px 0px 20px;   
+	transition: 2s;
+}
+.Navigation #search-box button {
+    background: #FFFAE9;
+	border: none;
+	padding:15px  ;
+	/* biểu tượng bàn tay khi trỏ chuột vào*/
+	cursor: pointer;
+	border-radius: 50%;
+	font-size: 20px;
+}
+.group{
+    margin-top: 25vh;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 100px;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.group a{
+    display: flex;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 30px;
+    width: 186px;
+    height: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    justify-content: space-evenly;
+
+
+}
+.group .all{
+    background: #FF382E;
+    text-align: center;
+    display: flex;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.group .beg{
+background: rgba(255, 56, 46, 0.1);
+border-radius: 30px;
+}
+.group .beg:hover{
+    background: #FF382E;
+    border-radius: 30px;
+    transition: 1s;
+    }
+.khung {
+    display: flex;
+    width: 1270px;
+    height: auto;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.khung .khung1{
+    width: 370px;
+height: 510px;
+
+}
+.khung .khung1 img{
+    Width: 370px;
+Height:320px;
+border-radius: 50px 50px 0 0 ;
+} 
+.khung .khung1 .trai h4{
+    background: rgba(255, 56, 46, 0.1);
+border-radius: 4px;
+    float: left;
+    Width:71px;
+    display: flex;
+    Height: 36px;
+    align-items: center;
+    justify-content: center;
+}
+.khung .khung1 .phai {
+    float: right;
+  } 
+ div.stars {
+    width: 280px;
+    height: 22px;    
+    display: flex;
+  }
+   
+  input.star { display: none; }
+   
+
+  label.star {
+    float: right;
+    padding: 10px;
+    width: 22px;
+    height: 22px;
+    color: #FD4;
+    transition: all .2s;
+    content: '\f005';
+  }
+   
+  input.star:checked ~ label.star:before {
+    content: '\f005';
+    color: #FD4;
+    transition: all .25s;
+  }
+   
+  input.star-5:checked ~ label.star:before {
+    color: #FE7;
+    text-shadow: 0 0 20px #952;
+  }
+   
+  input.star-1:checked ~ label.star:before { color: #F62; }
+   
+  label.star:hover { transform: rotate(-15deg) scale(1.1); }
+   
+  label.star:before {
+    content: '\f006';
+    font-family: FontAwesome;
+  }
+  /* hết star */
+  .khung .khung1 h2{
+    margin-top: 5vh;
+    font-family: 'Be Vietnam Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 32px;
+color: #08151F;
+  }
+  .khung .khung1 a{
+     margin-top: 5vh;
+    width: 120px;
+    height: 44px;
+    background: #FF382E;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .end{
+    width: 1170px;
+    height: 246px;
+    display: flex;
+
+}
+.end .tren11{
+    margin: 10vh 0 0 15vh;
+}
+.end .tren11 p{
+    
+    width: 160px;
+    height: 55px;
+    font-family: 'Aclonica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #2A2A2A;
+}
+.end .tren11 h3{
+    width: 275px;
+    height: 55px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5A5850;
+}
+.end .tren12 {
+    margin: 10vh 0 0 15vh;
+}
+.end .tren12 h2{
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+    
+    
+    color: #2A2A2A;
+}
+.end .tren12 h3{
+    width: 295px;
+    height: 56px;
+    left: 539px;
+    top: 5547px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+
+    color: #5A5850;
+}
+.end1 {
+    display: flex;
+    width: 1221px;
+    justify-content: space-around;
+    padding: 5vh 0 15vh 0;
+}

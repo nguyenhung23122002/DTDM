@@ -1,0 +1,293 @@
+.header{
+    width: 100%;
+    height: 1000px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;;
+    }
+    .home-button {
+        margin-top: 8px;
+      }
+      .Navigation {
+        margin: 0;
+        padding: 0;
+        border-bottom:1px solid #f1ddb5;
+        background: #FFFAE9;
+        height: 100px;
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .Navigation .Comestic{
+        margin-top: 50px;
+        margin-left: 50px;
+        font-family: 'Aclonica';
+        font-size: 22px;
+        background-color: #FFFAE9;
+      }
+    .Navigation .dieuhuong{
+        text-decoration: none;
+        background-color: #FFFAE9;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        margin-top: 50px;
+        margin-left: 250px;
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+    }
+    .Navigation .dieuhuong a{
+        text-decoration: none;
+        background-color: #FFFAE9;
+    }
+     #search-box{
+        margin-top: 0;
+        background-color: #FFFAE9;
+        height: 85px;
+        width: 400px;
+    
+    }
+    .Navigation #search-box #search-text{
+        background-color: #FFFAE9;
+        height: 5vh;
+        width: 30vh;
+        border: none;
+        outline: none;
+        background: white;
+        width: 0;
+        padding: 0;
+        border-radius: 20px;
+        margin-top: 40px;
+    }
+    #search-box:hover #search-text,#search-box #search-text:valid {
+
+      width: 200px;
+      padding: 10px 0px 0px 20px;   
+      transition: 2s;
+    }
+    .Navigation #search-box button {
+        background: #FFFAE9;
+      border: none;
+      padding:15px  ;
+      /* biểu tượng bàn tay khi trỏ chuột vào*/
+      cursor: pointer;
+      border-radius: 50%;
+      font-size: 20px;
+    }
+    .Contact{
+        color: #FF382E;
+    }
+    .banner {
+        height: 430px;
+        background-image: url("image/banner.jpg");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+      }
+      
+      .banner-content {
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        text-shadow: 2px 2px #000;
+      }
+      
+      .banner-content h2 {
+        font-size: 48px;
+        margin: 0;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: inline-block;
+      }
+      .contact {
+        
+        padding: 50px 0;
+        background: #FFF9F8;
+      }
+      
+      .section-title {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      
+      .row {
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: center;
+      }
+      
+      .col-4 {
+        width: calc(33.33% - 20px);
+        margin-bottom: 30px;
+      }
+      
+      .location-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      
+      .contact-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      
+      .contact-info {
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+      
+      .contact-form {
+      margin: 5vh 15vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .form {
+        /* width: 50%; */
+        width: 370px;
+      }
+      
+      .form h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+
+    color: #000000;
+      }
+      .form h3{
+        font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+
+
+    color: #000000;
+      }
+      .form form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      
+      .form label {
+        display: block;
+      }
+      
+      .form input,
+      .form textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+      .form #comment{
+        height: 138px;
+      }
+      .form button {
+        width: 170px;
+        height: 40px;
+        padding: 10px 20px;
+        background: #FF382E;
+        border: none;
+        border-radius: 4px;
+        color: #fff;
+        cursor: pointer;
+      }
+      
+      .map {
+        width: 600px;
+        height:400px;
+        background-image: url('image/Map.png');
+        background-size: cover;
+      }
+      .end{
+        width: 1170px;
+        height: 246px;
+        display: flex;
+    
+    }
+    .end .tren11{
+        margin: 10vh 0 0 15vh;
+    }
+    .end .tren11 p{
+        
+        width: 160px;
+        height: 55px;
+        font-family: 'Aclonica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+        color: #2A2A2A;
+    }
+    .end .tren11 h3{
+        width: 275px;
+        height: 55px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #5A5850;
+    }
+    .end .tren12 {
+        margin: 10vh 0 0 15vh;
+    }
+    .end .tren12 h2{
+    
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        /* identical to box height */
+        
+        
+        color: #2A2A2A;
+    }
+    .end .tren12 h3{
+        width: 295px;
+        height: 56px;
+        left: 539px;
+        top: 5547px;
+    
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        /* or 175% */
+    
+    
+        color: #5A5850;
+    }
+    .end1 {
+        display: flex;
+        width: 1221px;
+        justify-content: space-around;
+        padding: 5vh 0 15vh 0;
+    }
+    
